@@ -1,71 +1,106 @@
 # FPV Pilot Field Cards
 
-Free, printable 3 × 5 inch quick-reference cards for recreational FPV and model aviation pilots.
+A free, printable set of **3 × 5 inch field-reference cards** for recreational FPV and model-aviation pilots in the United States.
 
-This project is intended as a practical field aid: print the cards, laminate them, punch a corner, and keep them on a binder ring in your flight bag. Add or remove cards as your aircraft and flying style change.
+The goal is simple: put the information a pilot is likely to need **in the flight bag**, in a format that is quick to scan, easy to laminate, and easy to expand on a binder ring.
 
-## What is included
+> **Important:** These cards are a field-reference summary, not legal advice and not a replacement for current FAA regulations, FAA guidance, or the safety guidelines of the Community-Based Organization (CBO) you choose to follow.
 
-The initial deck covers:
+## Why this exists
 
-- Recreational UAS quick rules
-- Controlled airspace and LAANC
-- FPV visual observer responsibilities
-- Flite Test Community Association (FTCA) safety summary
-- Preflight / go-no-go checklist
-- LiPo battery quick reference
-- New-pilot field reference
-- Regulatory and airspace glossary
-- Aircraft, FPV, and battery glossary
+Getting into FPV and recreational model aviation can be overwhelming. New pilots are expected to learn airspace, FAA requirements, CBO safety practices, FPV visual-observer procedures, battery handling, equipment terminology, and pre-flight habits—all at once.
+
+This deck was created to reduce that cognitive load by turning frequently needed information into small, rugged reference cards.
+
+It is intended to be:
+
+- **Free to download and print**
+- **Easy to laminate** and carry on a binder ring
+- **Modular** — add or remove cards as your flying changes
+- **Useful for new pilots** without being limited to beginners
+- **Traceable to source material** so regulatory cards can be reviewed and updated
+
+## Current deck
+
+| Card | Topic |
+|---|---|
+| 01 | Recreational UAS Quick Rules |
+| 02 | Controlled Airspace / LAANC |
+| 03 | FPV / Visual Observer |
+| 04 | FTCA Safety Summary |
+| 05 | Pre-Flight / Go-No-Go |
+| 06 | Battery / LiPo Quick Reference |
+| 07 | New Pilot Field Reference |
+| 08A | What Does This Mean? — Regulatory / Airspace |
+| 08B | What Does This Mean? — Aircraft / FPV / Battery |
+
+The glossary is designed as a **duplex card**: 08A on the front and 08B on the back.
+
+## Preview
+
+### Recreational rules
+![Recreational UAS Quick Rules](cards/01_Recreational_UAS_Quick_Rules.png)
+
+### Controlled airspace / LAANC
+![Controlled Airspace LAANC](cards/02_Controlled_Airspace_LAANC.png)
+
+### FPV / visual observer
+![FPV Visual Observer](cards/03_FPV_Visual_Observer.png)
+
+### FTCA safety summary
+![FTCA Safety Summary](cards/04_FTCA_Safety_Summary.png)
 
 ## Printing
 
-The cards are designed for **3 × 5 inch landscape printing**. For field use:
+Each PNG is:
 
-1. Print at 100% / actual size.
-2. Duplex glossary cards where desired.
-3. Laminate or print on durable stock.
-4. Round the corners and punch a hole near the upper-left corner.
-5. Assemble on a small binder ring.
+- **1500 × 900 pixels**
+- **300 DPI**
+- **3 × 5 inches, landscape**
 
-A small zipper pouch can also hold pilot documents such as a TRUST certificate, registration proof when applicable, and current LAANC authorization.
+Recommended field setup:
 
-## Important disclaimer
+1. Print at **100% / actual size**.
+2. Trim to 3 × 5 inches.
+3. Laminate.
+4. Round the corners if desired.
+5. Punch the marked safe area and place the cards on a small binder ring.
+6. Keep your actual TRUST certificate and, when applicable, registration or current flight authorization with your field materials.
 
-These cards are **field summaries**, not a substitute for current FAA regulations, FAA guidance, airspace authorization, local rules, or the full safety guidelines of an FAA-recognized Community Based Organization.
-
-Rules and guidance can change. Before flying, verify current requirements using the authoritative sources listed in [SOURCES.md](SOURCES.md).
-
-This is an **independent community project** and is not an official publication of the FAA, Flite Test, or the Flite Test Community Association.
+Do not scale the images to “fit page” if you want the intended 3 × 5 size.
 
 ## CBO alignment
 
-The deck is written to align with the **Flite Test Community Association (FTCA)** safety philosophy and current published safety guidelines. FTCA is an FAA-recognized Community Based Organization focused on lowering the barrier to entry for recreational model aviation while helping pilots fly safely and legally.
+The CBO-specific card in this deck is aligned with the **Flite Test Community Association (FTCA)** safety guidelines because those guidelines are a strong fit for the educational and community-oriented purpose of this project.
 
-## Project goals
+This project is **not an official FTCA or Flite Test publication and is not endorsed by them unless they explicitly say otherwise**.
 
-- Reduce the amount of scattered information a new recreational pilot has to absorb.
-- Put useful references in a format that works in the field without requiring a phone.
-- Keep regulatory summaries traceable to authoritative sources.
-- Make the deck modular so pilots can carry only the cards relevant to them.
-- Make the files freely available for printing, modification, redistribution, and community improvement.
+Pilots may choose any FAA-recognized CBO and are responsible for following the safety guidelines of the CBO they operate under.
+
+## QR codes and sources
+
+Regulatory and CBO cards use QR codes only where an online source is useful in the field. QR codes in the normalized release were generated programmatically and software-decoded during QA.
+
+See:
+
+- [Source references](SOURCES.md)
+- [Deck manifest](docs/MANIFEST.md)
+- [QA report](docs/QA_REPORT.md)
+
+**Regulatory review date:** 2026-09-08
+
+Because regulations, FAA guidance, online services, and CBO guidance can change, always verify current information before relying on an older release.
 
 ## Contributing
 
-Corrections and new-card suggestions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Corrections, updated source references, accessibility improvements, and ideas for additional cards are welcome.
 
-For regulatory or safety corrections, please include an authoritative source whenever possible.
+Please see [CONTRIBUTING.md](CONTRIBUTING.md). For regulatory changes, include a primary source whenever possible.
 
 ## License
 
-This project is released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. See [LICENSE.md](LICENSE.md).
+The original card layout, compilation, and project documentation are released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
-You may print, copy, modify, redistribute, and commercially reproduce the cards as long as appropriate attribution is provided.
+You may copy, print, redistribute, adapt, and commercially reproduce the project provided the required attribution is preserved. See [LICENSE.md](LICENSE.md).
 
-That means a club, instructor, hobby shop, CBO, or manufacturer can give the cards away or produce finished physical sets while preserving attribution.
-
-## Version
-
-Initial public release: **v1.0.0** — September 2026.
-
-See [CHANGELOG.md](CHANGELOG.md) and the project QA documentation for release history and validation notes.
+Third-party names, trademarks, regulations, and linked source material remain the property of their respective owners and are not relicensed by this project.
